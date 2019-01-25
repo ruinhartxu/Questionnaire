@@ -17,7 +17,7 @@ Please save the following items as individual powershell scripts/modules.
     * write a registery key in User's registry folder. [Key]:[Value] == Company:MCU
 
 
-* Write a script to remotely retrieve name of services on a machine that are currently running
+* Write a script to remotely retrieve name of services on a machine that are currently running, and Stop a given service if currently running.
 * Write a script to map a network drive, and persist said mapping.
 * Write a script to run a given stored procedure, against a given sql server. Export output - if any - to a csv file at a given path.
 
