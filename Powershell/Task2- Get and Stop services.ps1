@@ -14,6 +14,6 @@ Get-Service -ComputerName $computername | Where-Object {$_.Status -eq "Running"}
 
 Write-Host "Now stop a service on $computername"
 
-(Get-Service -ComputerName $computername -Name $service).stop()
+(Get-Service -ComputerName $computername -Name $service | Where-Object {$_.Status -eq "Running"}).stop()
 
 pause
