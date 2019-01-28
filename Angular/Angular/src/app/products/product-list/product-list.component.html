@@ -1,0 +1,33 @@
+<strong>
+  <p *ngIf="service.list">List of {{service.list.length}} Products</p>
+</strong>
+<a class="btn btn-sm btn-success text-white" (click)="addOrEdit(null)"><i class="fa fa-plus"></i> Add New Product</a>
+<br>
+<br>
+<table class="table table-hover" *ngIf="service.list">
+  <!-- <caption *ngIf="service.list">List of {{service.list.length}} products</caption> -->
+  <thead>
+    <th>ID</th>
+    <th>Product Name</th>
+    <th>Quantity</th>
+    <th></th>
+  </thead>
+
+  <tbody>
+    <tr *ngIf="service.list.length==0" [class.text-danger]="service.list.length==0">
+      <td class="font-italic text-center" colspan="4">
+        No Record Found.
+      </td>
+    </tr>
+    <tr *ngFor="let pro of service.list">
+      <td>{{pro.ID}}</td>
+      <td>{{pro.ProductName}}</td>
+      <td>{{pro.Quantity}}</td>
+      <td>
+        <a (click)="addOrEdit(pro)" class="text-info" matTooltip="Edit Record" matTooltipPosition="above"><i class="fas fa-edit"></i></a>
+        <a (click)="onDelete(pro.ID)" class="text-danger ml-3" matTooltip="Delete Record" matTooltipPosition="above"><i
+            class="fas fa-minus-circle"></i></a>
+      </td>
+    </tr>
+  </tbody>
+</table>

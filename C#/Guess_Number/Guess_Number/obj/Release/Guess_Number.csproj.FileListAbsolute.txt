@@ -1,0 +1,6 @@
+C:\Users\ma901\Desktop\Questionaire\Questionnaire\C#\Guess_Number\Guess_Number\bin\Release\Guess_Number.exe.config
+C:\Users\ma901\Desktop\Questionaire\Questionnaire\C#\Guess_Number\Guess_Number\bin\Release\Guess_Number.exe
+C:\Users\ma901\Desktop\Questionaire\Questionnaire\C#\Guess_Number\Guess_Number\bin\Release\Guess_Number.pdb
+C:\Users\ma901\Desktop\Questionaire\Questionnaire\C#\Guess_Number\Guess_Number\obj\Release\Guess_Number.csproj.CoreCompileInputs.cache
+C:\Users\ma901\Desktop\Questionaire\Questionnaire\C#\Guess_Number\Guess_Number\obj\Release\Guess_Number.exe
+C:\Users\ma901\Desktop\Questionaire\Questionnaire\C#\Guess_Number\Guess_Number\obj\Release\Guess_Number.pdb

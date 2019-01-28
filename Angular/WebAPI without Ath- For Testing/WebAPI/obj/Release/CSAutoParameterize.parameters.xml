@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="LocalSqlServer-Web.config Connection String" description="LocalSqlServer Connection String used in web.config by the application to access the database." defaultValue="Server=(LocalDB)\MSSQLLocalDB;Database=master;User ID=MCU;Password=123123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ma901\\Desktop\\Questionaire\\Questionnaire\\WebAPI\\WebAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LocalSqlServer']/@connectionString" />
+  </parameter>
+  <parameter name="MCUContext-Web.config Connection String" description="MCUContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=localhost\SQLEXPRESS;Initial Catalog=MCU;Persist Security Info=True;User ID=MCU;Password=123123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ma901\\Desktop\\Questionaire\\Questionnaire\\WebAPI\\WebAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MCUContext']/@connectionString" />
+  </parameter>
+</parameters>
